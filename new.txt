@@ -1,0 +1,2 @@
+"hello folks" 
+Wasupp my nigga welcome to learning git and github 
