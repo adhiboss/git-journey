@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Minimal Markdown Editor</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- LEFT SIDE -->
+    <div class="editor-section">
+
+      <div class="topbar">
+        <h1>Markdown Editor</h1>
+
+        <label class="switch">
+          <input type="checkbox" id="themeToggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+
+      <textarea id="editor" placeholder="Start typing markdown...">
+# Hello World
+
+## Live Preview
+
+**Bold Text**
+
+*Italic Text*
+
+`Inline Code`
+      </textarea>
+
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="preview-section">
+      <div id="preview"></div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
